@@ -1,0 +1,50 @@
+{
+  "updated": "2026-02-07T17:46:00Z",
+  "items": [
+    {
+      "id": "organize-tools",
+      "name": "Organize Tools",
+      "description": "Return tools to designated spots on workbench",
+      "votes": 0,
+      "status": "pending",
+      "assigned": null,
+      "repo": null
+    },
+    {
+      "id": "take-out-trash",
+      "name": "Take Out Trash",
+      "description": "Detect full trash can, take bag to outdoor bin",
+      "votes": 0,
+      "status": "pending",
+      "assigned": null,
+      "repo": null
+    },
+    {
+      "id": "check-door",
+      "name": "Check Door",
+      "description": "Verify door is closed, alert if open",
+      "votes": 0,
+      "status": "pending",
+      "assigned": null,
+      "repo": null
+    },
+    {
+      "id": "find-item",
+      "name": "Find Item",
+      "description": "Search area for specific object by description",
+      "votes": 0,
+      "status": "pending",
+      "assigned": null,
+      "repo": null
+    },
+    {
+      "id": "water-plants",
+      "name": "Water Plants",
+      "description": "Check soil moisture, water if dry",
+      "votes": 0,
+      "status": "pending",
+      "assigned": null,
+      "repo": null
+    }
+  ]
+}

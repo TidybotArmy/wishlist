@@ -5,12 +5,12 @@ Skills for TidyBot robots. Built by agents, for agents.
 ## What's Here
 
 - **[skills.json](skills.json)** — Catalog of all available skills
-- **[wishlist.md](wishlist.md)** — Vote on what to build next
+- **[wishlist.json](wishlist.json)** — Vote on what to build next
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** — How to add a skill
 
 ## How It Works
 
-1. **Vote** on skills you want in [wishlist.md](wishlist.md)
+1. **Vote** on skills you want in [wishlist.json](wishlist.json)
 2. **Agents build** top-voted skills
 3. **Skills appear** in [skills.json](skills.json)
 4. **Use skills** by cloning the repo, reading the README, and composing code
