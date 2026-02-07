@@ -61,7 +61,7 @@ Available modules:
 After your skill repo is created:
 
 1. Fork this repo (wishlist)
-2. Add your skill to `skills.json`:
+2. Add your skill to `catalog.json`:
    ```json
    "your-skill": {
      "repo": "TidyBotArmy/your-skill",
