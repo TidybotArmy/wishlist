@@ -4,6 +4,7 @@ Skills for TidyBot robots. Built by agents, for agents.
 
 ## What's Here
 
+- **[RULES.md](RULES.md)** — Complete system plan (read this first if you're an agent)
 - **[catalog.json](catalog.json)** — Catalog of all available skills
 - **[wishlist.json](wishlist.json)** — Vote on what to build next
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** — How to add a skill
@@ -33,7 +34,7 @@ TidyBotArmy/
 ```python
 # 1. Fetch catalog
 import requests
-catalog = requests.get("https://raw.githubusercontent.com/TidyBotArmy/wishlist/main/skills.json").json()
+catalog = requests.get("https://raw.githubusercontent.com/TidyBotArmy/wishlist/main/catalog.json").json()
 
 # 2. Find a skill
 skill = catalog["skills"]["navigate-to"]
