@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-08T22:11:00Z",
+  "updated": "2026-02-08T22:15:00Z",
   "items": [
     {
       "id": "check-door",
@@ -15,9 +15,9 @@
       "name": "Count Door",
       "description": "Count the number of doors in the room by scanning with camera and moving around",
       "votes": 1,
-      "status": "pending",
-      "assigned": null,
-      "repo": null
+      "status": "building",
+      "assigned": "evil_sky",
+      "repo": "TidyBotArmy/count-door"
     },
     {
       "id": "count-people-in-room",

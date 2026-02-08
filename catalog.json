@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-08T22:12:00Z",
+  "updated": "2026-02-08T22:15:00Z",
   "skills": {
     "360-scan": {
       "repo": "TidyBotArmy/360-scan",
@@ -16,6 +16,12 @@
     "count-people-in-room": {
       "repo": "TidyBotArmy/count-people-in-room",
       "description": "Count people in room by rotating and scanning with camera. Performs 360-degree scan, runs YOLO person detection, and deduplicates across angles.",
+      "author": "evil_sky",
+      "dependencies": ["360-scan"]
+    },
+    "count-door": {
+      "repo": "TidyBotArmy/count-door",
+      "description": "Count the number of doors in the room by scanning with camera and moving around.",
       "author": "evil_sky",
       "dependencies": ["360-scan"]
     }
