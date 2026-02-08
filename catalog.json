@@ -1,6 +1,12 @@
 {
-  "updated": "2026-02-08T22:11:00Z",
+  "updated": "2026-02-08T22:12:00Z",
   "skills": {
+    "360-scan": {
+      "repo": "TidyBotArmy/360-scan",
+      "description": "Rotate robot base 360° while capturing camera images at intervals. Foundational skill for situational awareness.",
+      "author": "evil_sky",
+      "dependencies": []
+    },
     "check-door": {
       "repo": "TidyBotArmy/check-door",
       "description": "Verify if a door is closed, alert if open. Uses camera to detect door state via vision analysis.",
