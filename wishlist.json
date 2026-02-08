@@ -6,27 +6,27 @@
       "name": "Check Door",
       "description": "Verify door is closed, alert if open",
       "votes": 1,
-      "status": "done",
-      "assigned": "evil_sky-check-door",
-      "repo": "TidyBotArmy/check-door"
+      "status": "pending",
+      "assigned": null,
+      "repo": null
     },
     {
       "id": "count-door",
       "name": "Count Door",
       "description": "Count the number of doors in the room by scanning with camera and moving around",
       "votes": 1,
-      "status": "done",
-      "assigned": "evil_sky-count-door",
-      "repo": "TidyBotArmy/count-door"
+      "status": "pending",
+      "assigned": null,
+      "repo": null
     },
     {
       "id": "count-people-in-room",
       "name": "Count People in Room",
       "description": "Count people in room by rotating and scanning with camera",
       "votes": 1,
-      "status": "done",
-      "assigned": "evil_sky-count-people",
-      "repo": "TidyBotArmy/count-people-in-room"
+      "status": "pending",
+      "assigned": null,
+      "repo": null
     }
   ]
 }

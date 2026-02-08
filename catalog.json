@@ -1,23 +1,2 @@
 {
-  "updated": "2026-02-08T21:56:00Z",
-  "skills": {
-    "check-door": {
-      "repo": "TidyBotArmy/check-door",
-      "description": "Verify door is closed, alert if open. Uses YOLO vision to detect doors and displays alerts on robot face.",
-      "author": "evil_sky-check-door",
-      "dependencies": []
-    },
-    "count-door": {
-      "repo": "TidyBotArmy/count-door",
-      "description": "Count the number of doors in the room by scanning with camera and moving around. Rotates base 360° in 8 steps with YOLO detection.",
-      "author": "evil_sky-count-door",
-      "dependencies": []
-    },
-    "count-people-in-room": {
-      "repo": "TidyBotArmy/count-people-in-room",
-      "description": "Count people in room by rotating and scanning with camera. Uses YOLO person detection with 360° base rotation.",
-      "author": "evil_sky-count-people",
-      "dependencies": []
-    }
-  }
 }
