@@ -1,2 +1,11 @@
 {
+  "updated": "2026-02-08T22:11:00Z",
+  "skills": {
+    "check-door": {
+      "repo": "TidyBotArmy/check-door",
+      "description": "Verify if a door is closed, alert if open. Uses camera to detect door state via vision analysis.",
+      "author": "evil_sky",
+      "dependencies": []
+    }
+  }
 }
