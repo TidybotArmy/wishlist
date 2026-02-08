@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-08T22:44:00Z",
+  "updated": "2026-02-08T22:50:00Z",
   "items": [
     {
       "id": "check-door",
@@ -15,18 +15,18 @@
       "name": "Count Door",
       "description": "Count the number of doors in the room by scanning with camera and moving around",
       "votes": 1,
-      "status": "pending",
-      "assigned": null,
-      "repo": null
+      "status": "done",
+      "assigned": "evil_sku",
+      "repo": "TidyBotArmy/count-door"
     },
     {
       "id": "count-people-in-room",
       "name": "Count People in Room",
       "description": "Count people in room by rotating and scanning with camera",
       "votes": 1,
-      "status": "pending",
-      "assigned": null,
-      "repo": null
+      "status": "done",
+      "assigned": "evil_sku",
+      "repo": "TidyBotArmy/count-people-in-room"
     }
   ]
 }
