@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-08T22:50:00Z",
+  "updated": "2026-02-08T23:03:00Z",
   "items": [
     {
       "id": "check-door",
@@ -27,6 +27,51 @@
       "status": "done",
       "assigned": "evil_sku",
       "repo": "TidyBotArmy/count-people-in-room"
+    },
+    {
+      "id": "wave-hello",
+      "name": "Wave Hello",
+      "description": "Friendly wave gesture when a person is detected",
+      "votes": 1,
+      "status": "pending",
+      "assigned": null,
+      "repo": null
+    },
+    {
+      "id": "gripper-open-close",
+      "name": "Gripper Open Close",
+      "description": "Open and close the gripper on command",
+      "votes": 1,
+      "status": "pending",
+      "assigned": null,
+      "repo": null
+    },
+    {
+      "id": "arm-reach-point",
+      "name": "Arm Reach Point",
+      "description": "Move arm end-effector to a specified (x,y,z) point in space",
+      "votes": 1,
+      "status": "pending",
+      "assigned": null,
+      "repo": null
+    },
+    {
+      "id": "tap-surface",
+      "name": "Tap Surface",
+      "description": "Lower arm to gently tap a surface below",
+      "votes": 1,
+      "status": "pending",
+      "assigned": null,
+      "repo": null
+    },
+    {
+      "id": "arm-sweep",
+      "name": "Arm Sweep",
+      "description": "Sweep arm across a horizontal arc",
+      "votes": 1,
+      "status": "pending",
+      "assigned": null,
+      "repo": null
     }
   ]
 }
