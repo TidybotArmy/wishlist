@@ -69,9 +69,9 @@
       "name": "Arm Sweep",
       "description": "Sweep arm across a horizontal arc",
       "votes": 1,
-      "status": "pending",
-      "assigned": null,
-      "repo": null
+      "status": "done",
+      "assigned": "subagent (Ningning workspace)",
+      "repo": "TidyBotArmy/arm-sweep"
     }
   ]
 }

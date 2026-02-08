@@ -1,6 +1,12 @@
 {
-  "updated": "2026-02-08T22:50:00Z",
+  "updated": "2026-02-08T23:20:00Z",
   "skills": {
+    "arm-sweep": {
+      "repo": "TidyBotArmy/arm-sweep",
+      "description": "Sweep the Franka Panda arm across a horizontal arc at a specified height.",
+      "author": "subagent (Ningning workspace)",
+      "dependencies": []
+    },
     "check-door": {
       "repo": "TidyBotArmy/check-door",
       "description": "Verify door is closed, alert if open. Uses YOLO to detect open vs closed doors.",
