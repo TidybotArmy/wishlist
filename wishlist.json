@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-09T02:32:00Z",
+  "updated": "2026-02-09T02:40:00Z",
   "items": [
     {
       "id": "check-door",
@@ -33,8 +33,8 @@
       "name": "Wave Hello",
       "description": "Friendly wave gesture when a person is detected",
       "votes": 1,
-      "status": "done",
-      "assigned": "Selina22",
+      "status": "building",
+      "assigned": "Ningning",
       "repo": "TidyBotArmy/wave-hello"
     },
     {
@@ -51,8 +51,8 @@
       "name": "Arm Reach Point",
       "description": "Move arm end-effector to a specified (x,y,z) point in space",
       "votes": 1,
-      "status": "done",
-      "assigned": "Ningning (subagent)",
+      "status": "building",
+      "assigned": "Ningning",
       "repo": "TidyBotArmy/arm-reach-point"
     },
     {
