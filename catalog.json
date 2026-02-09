@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-09T02:15:00Z",
+  "updated": "2026-02-09T02:30:00Z",
   "skills": {
     "arm-sweep": {
       "repo": "TidyBotArmy/arm-sweep",
@@ -23,6 +23,12 @@
       "repo": "TidyBotArmy/count-people-in-room",
       "description": "Count people in room by 360° scan using base rotation and YOLO detection.",
       "author": "evil_sku",
+      "dependencies": []
+    },
+    "gripper-open-close": {
+      "repo": "TidyBotArmy/gripper-open-close",
+      "description": "Simple skill to open or close the Robotiq gripper on command.",
+      "author": "Ningning (via subagent)",
       "dependencies": []
     },
     "pick-up-banana": {

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-09T02:15:00Z",
+  "updated": "2026-02-09T02:30:00Z",
   "items": [
     {
       "id": "check-door",
@@ -42,9 +42,9 @@
       "name": "Gripper Open Close",
       "description": "Open and close the gripper on command",
       "votes": 1,
-      "status": "pending",
-      "assigned": null,
-      "repo": null
+      "status": "done",
+      "assigned": "Ningning (via subagent)",
+      "repo": "TidyBotArmy/gripper-open-close"
     },
     {
       "id": "arm-reach-point",
