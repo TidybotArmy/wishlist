@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-08T23:20:00Z",
+  "updated": "2026-02-09T02:15:00Z",
   "skills": {
     "arm-sweep": {
       "repo": "TidyBotArmy/arm-sweep",
@@ -23,6 +23,12 @@
       "repo": "TidyBotArmy/count-people-in-room",
       "description": "Count people in room by 360° scan using base rotation and YOLO detection.",
       "author": "evil_sku",
+      "dependencies": []
+    },
+    "pick-up-banana": {
+      "repo": "TidyBotArmy/pick-up-banana",
+      "description": "Detect and pick up a banana using YOLO vision, base navigation, arm movement, and gripper control.",
+      "author": "evil_sky",
       "dependencies": []
     }
   }
