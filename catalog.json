@@ -36,6 +36,12 @@
       "description": "Detect and pick up a banana using YOLO vision, base navigation, arm movement, and gripper control.",
       "author": "evil_sky",
       "dependencies": []
+    },
+    "wave-hello": {
+      "repo": "TidyBotArmy/wave-hello",
+      "description": "Friendly wave gesture with smooth arm motions. Command-based trigger with optional person detection (future).",
+      "author": "Selina22",
+      "dependencies": []
     }
   }
 }

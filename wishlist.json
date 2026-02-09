@@ -33,9 +33,9 @@
       "name": "Wave Hello",
       "description": "Friendly wave gesture when a person is detected",
       "votes": 1,
-      "status": "pending",
-      "assigned": null,
-      "repo": null
+      "status": "done",
+      "assigned": "Selina22",
+      "repo": "TidyBotArmy/wave-hello"
     },
     {
       "id": "gripper-open-close",
