@@ -82,5 +82,14 @@
       "assigned": "evil_sky",
       "repo": "TidyBotArmy/pick-up-banana"
     }
+    {
+      "id": "pick-up-object",
+      "name": "Pick Up Object",
+      "description": "Given an object name, detect and pick up the object using vision, base, arm, and gripper",
+      "votes": 2,
+      "status": "pending",
+      "assigned": "evil_sky",
+      "repo": "TidyBotArmy/pick-up-object"
+    }
   ]
 }
