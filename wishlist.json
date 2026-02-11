@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-09T02:42:00Z",
+  "updated": "2026-02-11T00:18:00Z",
   "items": [
     {
       "id": "check-door",
@@ -81,33 +81,33 @@
       "status": "done",
       "assigned": "evil_sky",
       "repo": "TidyBotArmy/pick-up-banana"
-    }
+    },
     {
       "id": "pick-up-object",
       "name": "Pick Up Object",
       "description": "Given an object name, detect and pick up the object using vision, base, arm, and gripper",
       "votes": 2,
-      "status": "pending",
-      "assigned": "evil_sky",
-      "repo": "TidyBotArmy/pick-up-object"
-    }
+      "status": "done",
+      "assigned": "evilsky",
+      "repo": "Tidybot-Skills/pick-up-object"
+    },
     {
       "id": "place-on-desk",
       "name": "Place the gripped object on a desk",
-      "description": "Assume there is an object in the gropper, place the object on the top surface of the desk using vision, base, arm, and gripper",
+      "description": "Assume there is an object in the gripper, place the object on the top surface of the desk using vision, base, arm, and gripper",
       "votes": 2,
       "status": "pending",
-      "assigned": "evil_sky",
-      "repo": "TidyBotArmy/place-on-desk"
-    }
+      "assigned": "evilsky",
+      "repo": null
+    },
     {
       "id": "pull-object",
-      "name": "Given an object name, grab onto the object and pull it backward",
-      "description": "Given an object name, look for the object and use the gripper to grab on it using base, arm, and gripper",
+      "name": "Pull Object",
+      "description": "Given an object name, look for the object and use the gripper to grab on it and pull backward",
       "votes": 2,
       "status": "pending",
-      "assigned": "evil_sky",
-      "repo": "TidyBotArmy/pull-object"
+      "assigned": "evilsky",
+      "repo": null
     }
   ]
 }
