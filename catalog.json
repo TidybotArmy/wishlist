@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-10T20:59:00Z",
+  "updated": "2026-02-10T21:25:00Z",
   "skills": {
     "arm-reach-point": {
       "repo": "TidyBotArmy/arm-reach-point",
@@ -81,6 +81,15 @@
       "success_rate": 0,
       "total_trials": 0,
       "institutions_tested": 0
+    },
+    "pick-up-object": {
+      "repo": "Tidybot-Skills/pick-up-object",
+      "description": "IBVS visual servoing to pick up objects from the ground. Uses wrist camera + YOLO for centering, two-stage descent to ground level.",
+      "author": "evilsky",
+      "dependencies": [],
+      "success_rate": 100,
+      "total_trials": 1,
+      "institutions_tested": 1
     }
   }
 }
