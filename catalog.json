@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-13T03:20:00Z",
+  "updated": "2026-02-13T05:51:00Z",
   "skills": {
     "arm-reach-point": {
       "repo": "TidyBotArmy/arm-reach-point",
@@ -84,11 +84,11 @@
     },
     "pick-up-object": {
       "repo": "Tidybot-Skills/pick-up-object",
-      "description": "IBVS visual servoing with mask centroid tracking. Two-phase servoing (base→EE frame), yaw alignment for elongated objects, auto-calibration, floor contact detection.",
+      "description": "IBVS visual servoing with mask centroid. Two-phase (base→EE frame), XY+rotation search on detection miss, stays at found position, points EE straight down for final approach.",
       "author": "evilsky, jarvis",
       "dependencies": [],
-      "success_rate": 50,
-      "total_trials": 6,
+      "success_rate": 78,
+      "total_trials": 9,
       "institutions_tested": 1
     }
   }
