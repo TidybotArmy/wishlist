@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-11T19:30:00Z",
+  "updated": "2026-02-13T03:20:00Z",
   "skills": {
     "arm-reach-point": {
       "repo": "TidyBotArmy/arm-reach-point",
@@ -84,8 +84,8 @@
     },
     "pick-up-object": {
       "repo": "Tidybot-Skills/pick-up-object",
-      "description": "IBVS visual servoing to pick up objects from the ground. Uses wrist camera + YOLO for centering, two-stage descent to ground level.",
-      "author": "evilsky",
+      "description": "IBVS visual servoing with mask centroid tracking. Two-phase servoing (base→EE frame), yaw alignment for elongated objects, auto-calibration, floor contact detection.",
+      "author": "evilsky, jarvis",
       "dependencies": [],
       "success_rate": 50,
       "total_trials": 6,
