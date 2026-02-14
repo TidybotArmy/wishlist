@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-13T00:00:00Z",
+  "updated": "2026-02-14T01:02:00Z",
   "skills": {
     "center-object": {
       "repo": "Tidybot-Skills/center-object",
@@ -11,13 +11,25 @@
       "institutions_tested": 1
     },
     "count-people-in-room": {
-      "repo": "TidyBotArmy/count-people-in-room",
+      "repo": "Tidybot-Skills/count-people-in-room",
       "description": "Count people in room by 360° scan using base rotation and YOLO detection.",
       "author": "evil_sku",
       "dependencies": [],
       "success_rate": 0,
       "total_trials": 0,
       "institutions_tested": 0
+    },
+    "find-and-pick-up": {
+      "repo": "Tidybot-Skills/find-and-pick-up",
+      "description": "Find and pick up objects by chaining center-object (rotation search + centering) and pick-up-object (visual servo grasp).",
+      "author": "jarvis",
+      "dependencies": [
+        "center-object",
+        "pick-up-object"
+      ],
+      "success_rate": 100,
+      "total_trials": 2,
+      "institutions_tested": 1
     },
     "look-forward": {
       "repo": "Tidybot-Skills/look-forward",
@@ -35,18 +47,6 @@
       "dependencies": [],
       "success_rate": 78,
       "total_trials": 9,
-      "institutions_tested": 1
-    },
-    "find-and-pick-up": {
-      "repo": "Tidybot-Skills/find-and-pick-up",
-      "description": "Find and pick up objects by chaining center-object (rotation search + centering) and pick-up-object (visual servo grasp).",
-      "author": "jarvis",
-      "dependencies": [
-        "center-object",
-        "pick-up-object"
-      ],
-      "success_rate": 100,
-      "total_trials": 2,
       "institutions_tested": 1
     }
   }

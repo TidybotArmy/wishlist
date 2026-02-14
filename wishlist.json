@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-13T00:00:00Z",
+  "updated": "2026-02-14T01:02:00Z",
   "items": [
     {
       "id": "count-people-in-room",
@@ -8,7 +8,7 @@
       "votes": 1,
       "status": "done",
       "assigned": "evil_sku",
-      "repo": "TidyBotArmy/count-people-in-room"
+      "repo": "Tidybot-Skills/count-people-in-room"
     },
     {
       "id": "pick-up-object",
@@ -21,7 +21,7 @@
     },
     {
       "id": "place-on-desk",
-      "name": "Place the gripped object on a desk",
+      "name": "Place on Desk",
       "description": "Assume there is an object in the gripper, place the object on the top surface of the desk using vision, base, arm, and gripper",
       "votes": 2,
       "status": "pending",
