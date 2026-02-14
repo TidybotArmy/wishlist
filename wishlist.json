@@ -1,24 +1,6 @@
 {
-  "updated": "2026-02-11T00:18:00Z",
+  "updated": "2026-02-13T00:00:00Z",
   "items": [
-    {
-      "id": "check-door",
-      "name": "Check Door",
-      "description": "Verify door is closed, alert if open",
-      "votes": 1,
-      "status": "done",
-      "assigned": "evil_sku",
-      "repo": "TidyBotArmy/check-door"
-    },
-    {
-      "id": "count-door",
-      "name": "Count Door",
-      "description": "Count the number of doors in the room by scanning with camera and moving around",
-      "votes": 1,
-      "status": "done",
-      "assigned": "evil_sku",
-      "repo": "TidyBotArmy/count-door"
-    },
     {
       "id": "count-people-in-room",
       "name": "Count People in Room",
@@ -27,60 +9,6 @@
       "status": "done",
       "assigned": "evil_sku",
       "repo": "TidyBotArmy/count-people-in-room"
-    },
-    {
-      "id": "wave-hello",
-      "name": "Wave Hello",
-      "description": "Friendly wave gesture when a person is detected",
-      "votes": 1,
-      "status": "done",
-      "assigned": "Ningning",
-      "repo": "TidyBotArmy/wave-hello"
-    },
-    {
-      "id": "gripper-open-close",
-      "name": "Gripper Open Close",
-      "description": "Open and close the gripper on command",
-      "votes": 1,
-      "status": "done",
-      "assigned": "Ningning (via subagent)",
-      "repo": "TidyBotArmy/gripper-open-close"
-    },
-    {
-      "id": "arm-reach-point",
-      "name": "Arm Reach Point",
-      "description": "Move arm end-effector to a specified (x,y,z) point in space",
-      "votes": 1,
-      "status": "done",
-      "assigned": "Ningning",
-      "repo": "TidyBotArmy/arm-reach-point"
-    },
-    {
-      "id": "tap-surface",
-      "name": "Tap Surface",
-      "description": "Lower arm to gently tap a surface below",
-      "votes": 1,
-      "status": "pending",
-      "assigned": null,
-      "repo": null
-    },
-    {
-      "id": "arm-sweep",
-      "name": "Arm Sweep",
-      "description": "Sweep arm across a horizontal arc",
-      "votes": 1,
-      "status": "done",
-      "assigned": "subagent (Ningning workspace)",
-      "repo": "TidyBotArmy/arm-sweep"
-    },
-    {
-      "id": "pick-up-banana",
-      "name": "Pick Up Banana",
-      "description": "Detect and pick up a banana using vision, base, arm, and gripper",
-      "votes": 1,
-      "status": "done",
-      "assigned": "evil_sky",
-      "repo": "TidyBotArmy/pick-up-banana"
     },
     {
       "id": "pick-up-object",

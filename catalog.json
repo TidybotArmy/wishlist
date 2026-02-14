@@ -1,24 +1,6 @@
 {
-  "updated": "2026-02-13T18:35:00Z",
+  "updated": "2026-02-13T00:00:00Z",
   "skills": {
-    "arm-reach-point": {
-      "repo": "TidyBotArmy/arm-reach-point",
-      "description": "Move Franka arm end-effector to specified (x,y,z) in Cartesian space.",
-      "author": "Ningning (subagent)",
-      "dependencies": [],
-      "success_rate": 100,
-      "total_trials": 5,
-      "institutions_tested": 1
-    },
-    "arm-sweep": {
-      "repo": "TidyBotArmy/arm-sweep",
-      "description": "Sweep the Franka Panda arm across a horizontal arc at a specified height.",
-      "author": "subagent (Ningning workspace)",
-      "dependencies": [],
-      "success_rate": 0,
-      "total_trials": 0,
-      "institutions_tested": 0
-    },
     "center-object": {
       "repo": "Tidybot-Skills/center-object",
       "description": "Center target object in wrist camera using base movement. Visual servoing with YOLO detection for positioning before grasping.",
@@ -28,37 +10,10 @@
       "total_trials": 2,
       "institutions_tested": 1
     },
-    "check-door": {
-      "repo": "TidyBotArmy/check-door",
-      "description": "Verify door is closed, alert if open. Uses YOLO to detect open vs closed doors.",
-      "author": "evil_sku",
-      "dependencies": [],
-      "success_rate": 0,
-      "total_trials": 0,
-      "institutions_tested": 0
-    },
-    "count-door": {
-      "repo": "TidyBotArmy/count-door",
-      "description": "Count doors in room by 360° scan using base rotation and YOLO detection.",
-      "author": "evil_sku",
-      "dependencies": [],
-      "success_rate": 0,
-      "total_trials": 0,
-      "institutions_tested": 0
-    },
     "count-people-in-room": {
       "repo": "TidyBotArmy/count-people-in-room",
       "description": "Count people in room by 360° scan using base rotation and YOLO detection.",
       "author": "evil_sku",
-      "dependencies": [],
-      "success_rate": 0,
-      "total_trials": 0,
-      "institutions_tested": 0
-    },
-    "gripper-open-close": {
-      "repo": "TidyBotArmy/gripper-open-close",
-      "description": "Simple skill to open or close the Robotiq gripper on command.",
-      "author": "Ningning (via subagent)",
       "dependencies": [],
       "success_rate": 0,
       "total_trials": 0,
@@ -73,15 +28,6 @@
       "total_trials": 1,
       "institutions_tested": 1
     },
-    "pick-up-banana": {
-      "repo": "TidyBotArmy/pick-up-banana",
-      "description": "Detect and pick up a banana using YOLO vision, base navigation, arm movement, and gripper control.",
-      "author": "evil_sky",
-      "dependencies": [],
-      "success_rate": 0,
-      "total_trials": 0,
-      "institutions_tested": 0
-    },
     "pick-up-object": {
       "repo": "Tidybot-Skills/pick-up-object",
       "description": "IBVS visual servoing with mask centroid. Two-phase (base→EE frame), XY+rotation search on detection miss, stays at found position, points EE straight down for final approach.",
@@ -90,15 +36,6 @@
       "success_rate": 78,
       "total_trials": 9,
       "institutions_tested": 1
-    },
-    "wave-hello": {
-      "repo": "TidyBotArmy/wave-hello",
-      "description": "Friendly wave gesture with smooth arm motions. Command-based trigger with optional person detection (future).",
-      "author": "Selina22",
-      "dependencies": [],
-      "success_rate": 0,
-      "total_trials": 0,
-      "institutions_tested": 0
     },
     "find-and-pick-up": {
       "repo": "Tidybot-Skills/find-and-pick-up",
