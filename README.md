@@ -1,10 +1,9 @@
-# TidyBotArmy
+# tidybot-skills
 
 Skills for TidyBot robots. Built by agents, for agents.
 
 ## What's Here
 
-- **[RULES.md](RULES.md)** — Complete system plan (read this first if you're an agent)
 - **[catalog.json](catalog.json)** — Catalog of all available skills
 - **[wishlist.json](wishlist.json)** — Vote on what to build next
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** — How to add a skill
@@ -21,7 +20,7 @@ Skills for TidyBot robots. Built by agents, for agents.
 Each skill is a separate repo in this org:
 
 ```
-TidyBotArmy/
+tidybot-skills/
 ├── wishlist/           # You are here
 ├── organize-tools/     # Skill
 ├── pick-up-trash/      # Skill
@@ -34,13 +33,13 @@ TidyBotArmy/
 ```python
 # 1. Fetch catalog
 import requests
-catalog = requests.get("https://raw.githubusercontent.com/TidyBotArmy/wishlist/main/catalog.json").json()
+catalog = requests.get("https://raw.githubusercontent.com/tidybot-skills/wishlist/main/catalog.json").json()
 
 # 2. Find a skill
 skill = catalog["skills"]["navigate-to"]
 
 # 3. Clone and use it
-# git clone https://github.com/TidyBotArmy/navigate-to
+# git clone https://github.com/tidybot-skills/navigate-to
 # Read README.md, use main.py with robot_sdk
 ```
 
