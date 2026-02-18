@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-14T08:00:00Z",
+  "updated": "2026-02-17T20:08:00Z",
   "skills": {
     "center-object": {
       "repo": "Tidybot-Skills/center-object",
@@ -12,7 +12,7 @@
     },
     "count-people-in-room": {
       "repo": "Tidybot-Skills/count-people-in-room",
-      "description": "Count people in room by 360° scan using base rotation and YOLO detection.",
+      "description": "Count people in room by 360\u00b0 scan using base rotation and YOLO detection.",
       "author": "evil_sku",
       "dependencies": [],
       "success_rate": 0,
@@ -33,7 +33,7 @@
     },
     "look-forward": {
       "repo": "Tidybot-Skills/look-forward",
-      "description": "Point wrist camera forward and detect objects with YOLO. Tilts EE ~40° to scan ahead.",
+      "description": "Point wrist camera forward and detect objects with YOLO. Tilts EE ~40\u00b0 to scan ahead.",
       "author": "jarvis",
       "dependencies": [],
       "success_rate": 100,
@@ -42,7 +42,7 @@
     },
     "pick-up-object": {
       "repo": "Tidybot-Skills/pick-up-object",
-      "description": "IBVS visual servoing with mask centroid. Two-phase (base→EE frame), XY+rotation search on detection miss, stays at found position, points EE straight down for final approach.",
+      "description": "IBVS visual servoing with mask centroid. Two-phase (base\u2192EE frame), XY+rotation search on detection miss, stays at found position, points EE straight down for final approach.",
       "author": "evilsky, jarvis",
       "dependencies": [],
       "success_rate": 78,
@@ -69,6 +69,15 @@
       "success_rate": 85,
       "total_trials": 20,
       "institutions_tested": 1
+    },
+    "visuomotor-keypoint-joint-policy": {
+      "repo": "Tidybot-Skills/visuomotor-keypoint-joint-policy",
+      "description": "Learned diffusion policy: semantic keypoint tracking (CleanDIFT + CoTracker) to joint angle commands. Uses predicate-perception-policy service for inference.",
+      "author": "jarvis",
+      "dependencies": [],
+      "success_rate": 0,
+      "total_trials": 0,
+      "institutions_tested": 0
     }
   }
 }
