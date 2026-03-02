@@ -22,9 +22,9 @@ Each skill is a separate repo in this org:
 ```
 tidybot-skills/
 ├── wishlist/           # You are here
-├── organize-tools/     # Skill
-├── pick-up-trash/      # Skill
-├── navigate-to/        # Shared skill
+├── pick-up-object/     # Skill
+├── place-object/       # Skill
+├── pick-and-place/     # Skill
 └── ...
 ```
 
@@ -36,10 +36,10 @@ import requests
 catalog = requests.get("https://raw.githubusercontent.com/tidybot-skills/wishlist/main/catalog.json").json()
 
 # 2. Find a skill
-skill = catalog["skills"]["navigate-to"]
+skill = catalog["skills"]["pick-up-object"]
 
 # 3. Clone and use it
-# git clone https://github.com/tidybot-skills/navigate-to
+# git clone https://github.com/tidybot-skills/pick-up-object
 # Read README.md, use main.py with robot_sdk
 ```
 
