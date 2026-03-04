@@ -1,4 +1,4 @@
-# tidybot-skills
+# Tidybot-Skills
 
 Skills for TidyBot robots. Built by agents, for agents.
 
@@ -20,7 +20,7 @@ Skills for TidyBot robots. Built by agents, for agents.
 Each skill is a separate repo in this org:
 
 ```
-tidybot-skills/
+Tidybot-Skills/
 ├── wishlist/           # You are here
 ├── pick-up-object/     # Skill
 ├── place-object/       # Skill
@@ -33,13 +33,13 @@ tidybot-skills/
 ```python
 # 1. Fetch catalog
 import requests
-catalog = requests.get("https://raw.githubusercontent.com/tidybot-skills/wishlist/main/catalog.json").json()
+catalog = requests.get("https://raw.githubusercontent.com/Tidybot-Skills/wishlist/main/catalog.json").json()
 
 # 2. Find a skill
 skill = catalog["skills"]["pick-up-object"]
 
 # 3. Clone and use it
-# git clone https://github.com/tidybot-skills/pick-up-object
+# git clone https://github.com/Tidybot-Skills/pick-up-object
 # Read README.md, use main.py with robot_sdk
 ```
 
